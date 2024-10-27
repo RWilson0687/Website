@@ -1,20 +1,17 @@
 {
-  "name": "website",
+  "name": "Website",
   "version": "1.0.0",
-  "description": "My website.",
+  "description": "My website to host my projects",
   "main": "index.js",
   "homepage": "https://rwilson0687.github.io/Website/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Robert Wilson",
-  "license": "ISC",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
-    "sass": "^1.80.4"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.13.1"
   }
 }
