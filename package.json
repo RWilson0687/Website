@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "My website.",
+  "main": "index.js",
+  "scripts": {
+    "sss": "sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Robert Wilson",
+  "license": "ISC",
+  "dependencies": {
+    "no": "^0.0.1"
+  }
+}
