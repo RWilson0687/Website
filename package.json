@@ -5,13 +5,13 @@
   "main": "index.js",
   "homepage": "https://rwilson0687.github.io/Website/",
   "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Robert Wilson",
   "license": "ISC",
   "dependencies": {
-    "no": "^0.0.1"
-  },
-  "devDependencies": {
-    "coffee-script": "^1.12.7"
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.13.1"
   }
 }
