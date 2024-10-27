@@ -234,6 +234,15 @@ main#home h1 {
   padding: 0.5erm;
   border-bottom: #005f18 5px solid;
 }
+.about-info .job-img {
+  width: 100%;
+  border: 3px white solid;
+}
+.about-info .job-img:hover {
+  opacity: 0.5;
+  border-color: #005f18;
+  transition: all 0.5s ease-out;
+}
 
 .projects {
   display: grid;
