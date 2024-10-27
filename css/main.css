@@ -235,6 +235,7 @@ main#home h1 {
   border-bottom: #005f18 5px solid;
 }
 .about-info .job-img {
+  margin: auto;
   width: 100%;
   border: 3px white solid;
 }
