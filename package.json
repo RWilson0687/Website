@@ -6,6 +6,7 @@
   "homepage": "https://rwilson0687.github.io/Website/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "Robert Wilson",
