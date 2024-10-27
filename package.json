@@ -7,11 +7,13 @@
   "scripts": {
     "sss": "sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
-
   },
   "author": "Robert Wilson",
   "license": "ISC",
   "dependencies": {
     "no": "^0.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.7"
   }
 }
