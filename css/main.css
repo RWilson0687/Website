@@ -70,7 +70,7 @@
   height: 250px;
   background: url(../img/portrait.jpg);
   border-radius: 50%;
-  border: solid 3px #005f18;
+  border: solid 3px rgba(0, 255, 64, 0.8784313725);
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -80,7 +80,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #005f18;
+  color: rgba(0, 255, 64, 0.8784313725);
 }
 .menu .nav-link {
   display: inline-block;
@@ -93,7 +93,7 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #005f18;
+  color: rgba(0, 255, 64, 0.8784313725);
 }
 
 .nav-item:nth-child(1) {
@@ -171,7 +171,7 @@ header {
 }
 
 .text-secondary {
-  color: #005f18;
+  color: rgba(0, 255, 64, 0.8784313725);
 }
 
 main {
@@ -185,7 +185,7 @@ main .icons a {
   padding: 0.4rem;
 }
 main .icons a:hover {
-  color: #005f18;
+  color: rgba(0, 255, 64, 0.8784313725);
   transition: all 0.5s ease-out;
 }
 main#home {
@@ -205,7 +205,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #005f18 3px solid;
+  border: rgba(0, 255, 64, 0.8784313725) 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -232,7 +232,17 @@ main#home h1 {
 .about-info .job {
   background: rgb(5.1724137931, 49.1379310345, 107.3275862069);
   padding: 0.5erm;
-  border-bottom: #005f18 5px solid;
+  border-bottom: rgba(0, 255, 64, 0.8784313725) 5px solid;
+}
+.about-info .job-img {
+  margin: auto;
+  width: 100%;
+  border: 3px white solid;
+}
+.about-info .job-img:hover {
+  opacity: 0.5;
+  border-color: rgba(0, 255, 64, 0.8784313725);
+  transition: all 0.5s ease-out;
 }
 
 .projects {
@@ -246,7 +256,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #005f18;
+  border-color: rgba(0, 255, 64, 0.8784313725);
   transition: all 0.5s ease-out;
 }
 
@@ -266,11 +276,11 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #005f18;
-  color: #fff;
+  background: rgba(0, 255, 64, 0.8784313725);
+  color: #000;
 }
 .boxes div:hover span {
-  color: #fff;
+  color: #000;
 }
 
 .btn, .btn-light, .btn-dark {
@@ -280,8 +290,8 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 .btn:hovor, .btn-light:hovor, .btn-dark:hovor {
-  color: #fff;
-  background: #005f18;
+  color: #000;
+  background: rgba(0, 255, 64, 0.8784313725);
 }
 
 .btn-dark {
