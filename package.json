@@ -1,0 +1,17 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "description": "My website to host my projects",
+  "main": "index.js",
+  "homepage": "https://rwilson0687.github.io/Website/",
+  "scripts": {
+    "sass": "sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "main -d dist"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.13.1"
+  }
+}
