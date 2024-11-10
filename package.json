@@ -6,7 +6,7 @@
   "homepage": "https://rwilson0687.github.io/Website/",
   "scripts": {
     "sass": "sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d dist"
   },
   "author": "Brad Traversy",
   "license": "MIT",
